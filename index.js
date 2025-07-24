@@ -1,7 +1,6 @@
 import express from "express"
 import TelegramBot from "node-telegram-bot-api";
 
-import "dotenv/config"
 const app = express()
 const TOKEN = "7948844608:AAGd3to_W25RLmdtaP3BkQIG_u0VO2mClJM"
 
