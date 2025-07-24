@@ -10,6 +10,10 @@ bot.setMyCommands([
     { command: "/start", description: "Boshlash" }
 ])
 
+app.get("/ping",(req,res)=>{
+    res.send("Bot ishladi !")
+})
+
 const opts = {
     reply_markup: {
         keyboard: [
